@@ -1,0 +1,6 @@
+.containerBg {
+  display: block;
+  gap: 2.5rem;
+  background-image: url("../assets/background.svg");
+  height: 100vh;
+}

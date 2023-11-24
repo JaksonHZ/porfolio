@@ -37,21 +37,21 @@ const WhoIAm = () => {
             x="50"
             y="0"
             fill="#5E17EB"
-            fill-opacity=".2"
+            fillOpacity=".2"
           />
           <use
             xlinkHref="#gentle-wave"
             x="50"
             y="3"
             fill="#5E17EB"
-            fill-opacity=".5"
+            fillOpacity=".5"
           />
           <use
             xlinkHref="#gentle-wave"
             x="50"
             y="6"
             fill="#5E17EB"
-            fill-opacity=".9"
+            fillOpacity=".9"
           />
         </g>
       </svg>
