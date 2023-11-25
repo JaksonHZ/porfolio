@@ -2,7 +2,12 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Sidebar from './components/Sidebar/Sidebar';
-const inter = Inter({ subsets: ['latin'] })
+import { Raleway } from "next/font/google"
+const mainFontFamily = Raleway({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-family-main' 
+})
 
 export const metadata: Metadata = {
   title: 'JaksonHZ',
@@ -15,9 +20,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div className="min-h-screen grid grid-cols-app">
+    <html className={mainFontFamily.variable} lang="en">
+      <body>
+        <div className=" grid grid-cols-app">
           <Sidebar />
           <main>{children}</main>
         </div></body>

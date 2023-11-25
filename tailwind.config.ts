@@ -15,6 +15,9 @@ const config: Config = {
       },
       gridTemplateColumns: {
         app: "minmax(10rem,12rem) 1fr",
+      },
+      fontFamily: {
+        Raleway: ['var(--font-family-main)', 'sans-serif'],
       }
     },
   },
