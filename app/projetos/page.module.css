@@ -2,5 +2,6 @@
   display: block;
   gap: 2.5rem;
   background-image: url("../assets/background.svg");
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }

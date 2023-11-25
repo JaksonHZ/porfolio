@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html className={mainFontFamily.variable} lang="en">
       <body>
-        <div className=" grid grid-cols-app">
+        <div className="grid grid-cols-[180px_1fr]">
           <Sidebar />
           <main>{children}</main>
         </div></body>

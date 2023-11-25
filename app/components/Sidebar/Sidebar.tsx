@@ -10,8 +10,8 @@ import Perfil from '../../assets/perfil.png';
 const Sidebar = () => {
 
   return(
-    <header className='h-full w-full'>
-      <nav className='h-full bg-[#310573] sticky overflow-hidden z-10'>
+    <aside className='h-full w-full'>
+      <nav className='h-full bg-[#310573] fixed overflow-hidden z-10'>
         <ul className='flex flex-col w-full h-full'>
             <Image 
               alt='logo'
@@ -37,7 +37,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </aside>
   )
 }
 
