@@ -1,10 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import Sidebar from './components/Sidebar/Sidebar';
 import { Raleway } from "next/font/google"
+
 const mainFontFamily = Raleway({
-  weight: '400',
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-family-main' 
 })
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html className={mainFontFamily.variable} lang="en">
       <body>
-        <div className="grid grid-cols-[180px_1fr]">
+        <div className="grid grid-cols-[200px_1fr]">
           <Sidebar />
           <main>{children}</main>
         </div></body>

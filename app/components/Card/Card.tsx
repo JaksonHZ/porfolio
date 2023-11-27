@@ -15,6 +15,7 @@ export default function Card({ProjectName, ProjectDescription, Tags, image}: Car
       <div className="flex flex-row gap-8 w-full max-xl:flex-col">
         <Image className=" w-[167px] h-[171px] rounded-3xl self-center" src={image} alt="Perfil" />
         <div className="w-full">
+          <p className="text-sm font-Raleway">Projeto</p>
           <h2 className="text-2xl font-Raleway">{ProjectName}</h2>
           <p className="text-sm leading-5 mt-2 text-justify font-Raleway">
             {ProjectDescription}

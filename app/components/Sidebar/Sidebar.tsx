@@ -20,9 +20,9 @@ const Sidebar = () => {
               height={180}
               className='self-center'
             />
-          <Link href={"/"}><li className='mt-10 w-full px-8 py-6 hover:text-[#5E17EB] text-center cursor-pointer'>QUEM SOU</li></Link>
-          <Link href={"/projetos"}><li className='w-full px-8 py-6 hover:text-[#5E17EB] text-center cursor-pointer'>PROJETOS</li></Link>
-          <Link href={"/habilidades"}><li className='w-full px-8 py-6 hover:text-[#5E17EB] text-center cursor-pointer'>HABILIDADES</li></Link>
+          <Link href={"/"}><li className='mt-10 w-full px-8 py-6 hover:text-[#5E17EB] text-center tracking-[3px] font-Raleway  cursor-pointer'>QUEM SOU</li></Link>
+          <Link href={"/projetos"}><li className='w-full px-8 py-6 hover:text-[#5E17EB] text-center tracking-[3px] font-Raleway cursor-pointer'>PROJETOS</li></Link>
+          <Link href={"/habilidades"}><li className='w-full px-8 py-6 hover:text-[#5E17EB] text-center tracking-[3px] font-Raleway cursor-pointer'>HABILIDADES</li></Link>
           <div className='w-full h-[1px] bg-slate-300 bg-opacity-25'/>
           <li className='mt-4 flex flex-row text-center justify-center gap-x-2'>
             <Link href={"https://github.com/JaksonHZ"} target='_blank'><BiLogoGithub size={28}/></Link>

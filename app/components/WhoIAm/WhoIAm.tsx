@@ -10,8 +10,8 @@ const WhoIAm = () => {
           <Image src={Perfil2} alt="Jak" width={200} height={220} className={styles.perfil} />
         </div>
         <div className="flex flex-col">
-          <p className="text-5xl font-bold">Olá👋, eu sou Jak</p>
-          <p className="w-96 text-right text-lg font-semibold"> um desenvolvedor frontend apaixonado por tecnologia e inspirado em fazer interfaces limpas e intuitivas</p>
+          <p className="text-5xl font-bold font-Raleway">Olá👋, eu sou Jak</p>
+          <p className="w-96 text-right text-lg font-semibold font-Raleway"> um desenvolvedor frontend apaixonado por tecnologia e inspirado em fazer interfaces limpas e intuitivas</p>
         </div>
       </section>
       <svg
